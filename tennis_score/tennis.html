@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Score Keeper</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <link rel="stylesheet" href="tennis.css"> 
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      <div class="column is-half is-offset-one-quarter">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-2by1">
+              <img
+                src="https://images.unsplash.com/photo-1611251135345-18c56206b863?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Ping Pong">
+            </figure>
+          </div>
+          <header class="card-header">
+            <p class="card-header-title has-text-primary-80"">
+              Ping Pong Score Keeper
+            </p>
+            <a href="Home.html" class="home-link card-header-item has-text-warning-80">Home</a>
+          </header>
+          <div class="card-content">
+            <div class="content">
+              <h1 class="title is-1"><span id="p1display">0</span> to <span id="p2display">0</span></h1>
+              <p class="subtitle">Use the buttons below to keep score</p>
+              <div class="field">
+                <label for="playerOneName" class="label">Player One Name</label>
+                <input id="playerOneName" class="input" type="text" placeholder="Player One">
+              </div>
+              <div class="field">
+                <label for="playerTwoName" class="label">Player Two Name</label>
+                <input id="playerTwoName" class="input" type="text" placeholder="Player Two">
+              </div>
+              <label for="playTo" class="label">Playing To</label>
+              <div class="select is-rounded">
+                <select id="playTo">
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                </select>
+              </div>
+            </div>
+            <div id="scoreHistory" class="content">
+              <h2 class="subtitle">Score History:</h2>
+              <ul></ul>
+            </div>
+          </div>
+          <footer class="card-footer">
+            <button id="p1button" class="is-primary button card-footer-item">+1 Player One</button>
+            <button id="p2button" class="is-info button card-footer-item">+1 Player Two</button>
+            <button id="reset" class="is-danger button card-footer-item">Reset</button>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="tennis.js"></script>
+</body>
+
+</html>
