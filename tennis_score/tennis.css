@@ -1,0 +1,48 @@
+.hidden {
+    display: none;
+  }
+
+  #winner-message {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  /* Header Styling */
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card-header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  /* Home Link Styling */
+  .home-link {
+    color: #4caf50;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: color 0.3s ease, background-color 0.3s ease, border 0.3s ease;
+  }
+
+  .home-link:hover {
+    color: #ffffff;
+    background-color: #03045e;
+    border: 1px solid #94d2bd;
+    text-decoration: none;
+  }
+
+  .home-link:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.6);
+  }
