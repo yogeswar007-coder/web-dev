@@ -1,0 +1,197 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container-fluid {
+    flex: 1;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.navbar {
+    background-color: #000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    border: none;
+    width: 50px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar-toggler span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: red;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #9b1b30;
+    text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.5);
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color: #fff;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff0000;
+    transform: scale(1.1);
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.btn-outline-warning {
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-warning:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
+.form-container {
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    margin-top: 30px;
+}
+
+label {
+    font-weight: bold;
+    color: #000;
+}
+
+.btn-warning {
+    border-radius: 20px;
+    font-size: 1.2rem;
+    background: linear-gradient(145deg, #ff0000, #b30000);
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.btn-warning:hover {
+    transform: scale(1.05);
+    background: #800000;
+}
+
+.form-title {
+    color: #9b1b30;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.2);
+}
+
+body {
+    background: linear-gradient(120deg, #fdfbfb, #ebedee);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #000;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer a {
+    color: #ff0000;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.footer a img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .navbar {
+    background-color: #222;
+}
+
+.dark-mode .form-container {
+    background: linear-gradient(145deg, #444, #555);
+}
+
+.dark-mode .btn-warning {
+    background: linear-gradient(145deg, #b30000, #ff0000);
+}
+
+.dark-mode .footer {
+    background-color: #222;
+}
+
+.dark-mode .footer a {
+    color: #ff0000;
+}
+
+.dark-mode .nav-link {
+    color: #ddd;
+}
+
+.dark-mode .nav-link:hover {
+    color: #ff0000;
+}
+
+.light-mode-toggle-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background: #000;
+    color: #fff;
+}
+
+.dark-mode input,
+.dark-mode select,
+.dark-mode textarea {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+.dark-mode input::placeholder,
+.dark-mode textarea::placeholder {
+    color: #aaa;
+}
